@@ -1,0 +1,31 @@
+
+@startuml
+' http://www.plantuml.com/plantuml/uml/SoWkIImgAStDuUBISCiiAYvHA2rEJKuiJjNaqd3Coo_9I2s2YoWa5YjeX3eRQN91HHH2dOtXR0sVnEAIc3nanQ7E9bnS3gbvAI3p0G00
+skinparam TextAlign center
+skinparam actorStyle awesome
+
+'=== Atores ===
+actor Administrador as adm
+actor P.O as po
+actor Desenvolvedor as dev
+'=== Casos de Uso ===
+'Tenant
+usecase "Criar\nTenant" as createTenant
+usecase "Atualizar\nTenant" as updateTenant
+usecase "Excluir\nTenant" as deleteTenant
+
+usecase "Criar\nConta" as createAccount
+usecase "Convidar\nMembros" as inviteMembers
+usecase "Criar\nWorkspace" as createWorkspace
+usecase "Criar\nProjeto" as createProject
+usecase "Criar\nEpic" as createEpic
+usecase "Criar\nStory" as createStory
+usecase "Criar\nTarefa" as createTask
+usecase "Criar\nSprint" as createSprint
+usecase "Iniciar\nSprint" as openSprint
+usecase "Fechar\nSprint" as closeSprint
+
+'Quando concluir todas tarefas de um recurso, deve automaticamente concluir o Recurso, e quando concluir todos os recursos de Epic, deve concluir o Epi
+'Criar um grafico de gantt baseado nas tarefas
+
+@enduml
