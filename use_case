@@ -16,9 +16,12 @@ usecase "Excluir\nTenant" as deleteTenant
 
 usecase "Criar\nConta" as createAccount
 usecase "Atualizar\nConta" as updateAccount
-usecase "Excluir\Conta" as deleteAccount
+usecase "Excluir\nConta" as deleteAccount
 
-usecase "Convidar\nMembros" as inviteMembers
+usecase "Convidar\nMembro" as inviteMember
+usecase "Remover\nMembro" as removeMember
+usecase "Atribuir"
+
 usecase "Criar\nWorkspace" as createWorkspace
 usecase "Criar\nProjeto" as createProject
 usecase "Criar\nEpic" as createEpic
