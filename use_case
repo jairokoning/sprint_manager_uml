@@ -20,7 +20,7 @@ usecase "Excluir\nConta" as deleteAccount
 
 usecase "Convidar\nMembro" as inviteMember
 usecase "Remover\nMembro" as removeMember
-usecase "Atribuir"
+usecase "Atribuir\nPermissão" as setPermission
 
 usecase "Criar\nWorkspace" as createWorkspace
 usecase "Criar\nProjeto" as createProject
