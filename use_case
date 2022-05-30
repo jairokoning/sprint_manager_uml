@@ -23,6 +23,8 @@ usecase "Remover\nMembro" as removeMember
 usecase "Atribuir\nPermissão" as setPermission
 
 usecase "Criar\nWorkspace" as createWorkspace
+usecase "Atualizar\nWorkspace" as updateWorkspace
+
 usecase "Criar\nProjeto" as createProject
 usecase "Criar\nEpic" as createEpic
 usecase "Criar\nStory" as createStory
