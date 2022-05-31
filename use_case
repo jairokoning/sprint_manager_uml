@@ -24,6 +24,7 @@ usecase "Atribuir\nPermissão" as setPermission
 
 usecase "Criar\nWorkspace" as createWorkspace
 usecase "Atualizar\nWorkspace" as updateWorkspace
+usecase "Excluir\nWorkspace" as deleteWorkspace
 
 usecase "Criar\nProjeto" as createProject
 usecase "Criar\nEpic" as createEpic
