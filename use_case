@@ -27,6 +27,8 @@ usecase "Atualizar\nWorkspace" as updateWorkspace
 usecase "Excluir\nWorkspace" as deleteWorkspace
 
 usecase "Criar\nProjeto" as createProject
+usecase "Atualizar\nProjeto" as updateProject
+
 usecase "Criar\nEpic" as createEpic
 usecase "Criar\nStory" as createStory
 usecase "Criar\nTarefa" as createTask
