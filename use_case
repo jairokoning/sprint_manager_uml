@@ -36,8 +36,11 @@ usecase "Excluir\nEpic" as deleteEpic
 
 usecase "Criar\nStory" as createStory
 usecase "Atualizar\nStory" as updateStory
+usecase "Atualizar\nStory" as deleteStory
 
 usecase "Criar\nTarefa" as createTask
+usecase "Atualizar\nTarefa" as updateTask
+
 usecase "Criar\nSprint" as createSprint
 usecase "Iniciar\nSprint" as openSprint
 usecase "Fechar\nSprint" as closeSprint
