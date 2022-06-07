@@ -36,7 +36,7 @@ usecase "Excluir\nEpic" as deleteEpic
 
 usecase "Criar\nStory" as createStory
 usecase "Atualizar\nStory" as updateStory
-usecase "Atualizar\nStory" as deleteStory
+usecase "Excluir\nStory" as deleteStory
 
 usecase "Criar\nTarefa" as createTask
 usecase "Atualizar\nTarefa" as updateTask
