@@ -8,6 +8,7 @@ skinparam actorStyle awesome
 actor Administrador as adm
 actor P.O as po
 actor Desenvolvedor as dev
+
 '=== Casos de Uso ===
 'Tenant
 usecase "Criar\nTenant" as createTenant

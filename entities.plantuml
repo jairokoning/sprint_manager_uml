@@ -1,0 +1,5 @@
+@startuml "entities"
+
+entity Tenant {}
+
+@enduml
