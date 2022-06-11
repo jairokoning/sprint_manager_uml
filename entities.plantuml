@@ -1,5 +1,6 @@
 @startuml "entities"
 
 entity Tenant {}
+entity Account {}
 
 @enduml
