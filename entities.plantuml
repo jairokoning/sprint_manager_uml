@@ -3,5 +3,6 @@
 entity Tenant {}
 entity Account {}
 entity Workspace {}
+entity Project {}
 
 @enduml
