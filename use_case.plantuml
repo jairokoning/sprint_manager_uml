@@ -1,5 +1,4 @@
-
-@startuml
+@startuml ""
 ' http://www.plantuml.com/plantuml/uml/SoWkIImgAStDuUBISCiiAYvHA2rEJKuiJjNaqd3Coo_9I2s2YoWa5YjeX3eRQN91HHH2dOtXR0sVnEAIc3nanQ7E9bnS3gbvAI3p0G00
 skinparam TextAlign center
 skinparam actorStyle awesome
