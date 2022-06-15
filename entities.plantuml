@@ -5,5 +5,7 @@ entity Account {}
 entity Workspace {}
 entity Project {}
 entity Epic {}
+entity Story {}
+
 
 @enduml
