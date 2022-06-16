@@ -6,6 +6,6 @@ entity Workspace {}
 entity Project {}
 entity Epic {}
 entity Story {}
-
+entity Task {}
 
 @enduml
