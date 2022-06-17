@@ -7,5 +7,6 @@ entity Project {}
 entity Epic {}
 entity Story {}
 entity Task {}
+entity Sprint {}
 
 @enduml
