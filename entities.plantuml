@@ -3,6 +3,7 @@
 entity Tenant {}
 entity Account {}
 entity Workspace {}
+entity Member {}
 entity Project {}
 entity Epic {}
 entity Story {}
