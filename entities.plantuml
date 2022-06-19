@@ -1,13 +1,13 @@
 @startuml "entities"
 
-entity Tenant {}
-entity Account {}
-entity Workspace {}
-entity Member {}
-entity Project {}
-entity Epic {}
-entity Story {}
-entity Task {}
-entity Sprint {}
+entity Tenant <<(E,yellow)>> {}
+entity Account <<(E,yellow)>> {}
+entity Workspace <<(E,yellow)>> {}
+entity Member <<(E,yellow)>> {}
+entity Project <<(E,yellow)>> {}
+entity Epic <<(E,yellow)>> {}
+entity Story <<(E,yellow)>> {}
+entity Task <<(E,yellow)>> {}
+entity Sprint <<(E,yellow)>> {}
 
 @enduml
