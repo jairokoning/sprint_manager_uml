@@ -10,9 +10,11 @@ actor Desenvolvedor as dev
 
 '=== Casos de Uso ===
 'Tenant
-usecase "Criar\nTenant" as createTenant
-usecase "Atualizar\nTenant" as updateTenant
-usecase "Excluir\nTenant" as deleteTenant
+package "Gerenciar Tenant" {
+  usecase "Criar\nTenant" as createTenant
+  usecase "Atualizar\nTenant" as updateTenant
+  usecase "Excluir\nTenant" as deleteTenant
+}
 
 usecase "Criar\nConta" as createAccount
 usecase "Atualizar\nConta" as updateAccount
