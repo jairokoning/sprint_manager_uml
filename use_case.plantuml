@@ -7,21 +7,23 @@ actor Administrador as adm
 actor P.O as po
 actor Desenvolvedor as dev
 
-package "Gerenciar Tenant" {
+package "Gerenciar Tenants" {
   usecase "Criar\nTenant" as createTenant
   usecase "Atualizar\nTenant" as updateTenant
   usecase "Excluir\nTenant" as deleteTenant
 }
 
-package "Gerenciar Conta" {
+package "Gerenciar Contas" {
   usecase "Criar\nConta" as createAccount
   usecase "Atualizar\nConta" as updateAccount
   usecase "Excluir\nConta" as deleteAccount
 }
 
-usecase "Convidar\nMembro" as inviteMember
-usecase "Remover\nMembro" as removeMember
-usecase "Atribuir\nPermissão" as setPermission
+package "Gerenciar Membros" {
+  usecase "Convidar\nMembro" as inviteMember
+  usecase "Remover\nMembro" as removeMember
+  usecase "Atribuir\nPermissão" as setPermission
+}
 
 usecase "Criar\nWorkspace" as createWorkspace
 usecase "Atualizar\nWorkspace" as updateWorkspace
