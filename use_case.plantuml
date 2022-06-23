@@ -25,9 +25,11 @@ package "Gerenciar Membros" {
   usecase "Atribuir\nPermissão" as setPermission
 }
 
-usecase "Criar\nWorkspace" as createWorkspace
-usecase "Atualizar\nWorkspace" as updateWorkspace
-usecase "Excluir\nWorkspace" as deleteWorkspace
+package "Gerenciar Workspaces" {
+  usecase "Criar\nWorkspace" as createWorkspace
+  usecase "Atualizar\nWorkspace" as updateWorkspace
+  usecase "Excluir\nWorkspace" as deleteWorkspace
+}
 
 usecase "Criar\nProjeto" as createProject
 usecase "Atualizar\nProjeto" as updateProject
