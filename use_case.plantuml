@@ -31,10 +31,11 @@ package "Gerenciar Workspaces" {
   usecase "Excluir\nWorkspace" as deleteWorkspace
 }
 
-usecase "Criar\nProjeto" as createProject
-usecase "Atualizar\nProjeto" as updateProject
-usecase "Excluir\nProjeto" as deleteProject
-
+package "Gerenciar Projetos" {
+  usecase "Criar\nProjeto" as createProject
+  usecase "Atualizar\nProjeto" as updateProject
+  usecase "Excluir\nProjeto" as deleteProject
+}
 usecase "Criar\nEpic" as createEpic
 usecase "Atualizar\nEpic" as updateEpic
 usecase "Excluir\nEpic" as deleteEpic
