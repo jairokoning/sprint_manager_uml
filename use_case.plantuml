@@ -36,9 +36,12 @@ package "Gerenciar Projetos" {
   usecase "Atualizar\nProjeto" as updateProject
   usecase "Excluir\nProjeto" as deleteProject
 }
-usecase "Criar\nEpic" as createEpic
-usecase "Atualizar\nEpic" as updateEpic
-usecase "Excluir\nEpic" as deleteEpic
+
+package "Gerenciar Epics" {
+  usecase "Criar\nEpic" as createEpic
+  usecase "Atualizar\nEpic" as updateEpic
+  usecase "Excluir\nEpic" as deleteEpic
+}
 
 usecase "Criar\nStory" as createStory
 usecase "Atualizar\nStory" as updateStory
