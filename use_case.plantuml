@@ -43,18 +43,19 @@ package "Gerenciar Epics" {
   usecase "Excluir\nEpic" as deleteEpic
 }
 
-usecase "Criar\nStory" as createStory
-usecase "Atualizar\nStory" as updateStory
-usecase "Excluir\nStory" as deleteStory
+package "Gerenciar Stories" {
+  usecase "Criar\nStory" as createStory
+  usecase "Atualizar\nStory" as updateStory
+  usecase "Excluir\nStory" as deleteStory
+}
+  usecase "Criar\nTarefa" as createTask
+  usecase "Atualizar\nTarefa" as updateTask
+  usecase "Excluir\nTarefa" as deleteTask
 
-usecase "Criar\nTarefa" as createTask
-usecase "Atualizar\nTarefa" as updateTask
-usecase "Excluir\nTarefa" as deleteTask
-
-usecase "Criar\nSprint" as createSprint
-usecase "Iniciar\nSprint" as openSprint
-usecase "Fechar\nSprint" as closeSprint
-usecase "Excluir\nSprint" as deleteSprint
+  usecase "Criar\nSprint" as createSprint
+  usecase "Iniciar\nSprint" as openSprint
+  usecase "Fechar\nSprint" as closeSprint
+  usecase "Excluir\nSprint" as deleteSprint
 
 'Quando concluir todas tarefas de um recurso, deve automaticamente concluir o Recurso, e quando concluir todos os recursos de Epic, deve concluir o Epi
 'Criar um grafico de gantt baseado nas tarefas
