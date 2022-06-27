@@ -48,10 +48,12 @@ package "Gerenciar Stories" {
   usecase "Atualizar\nStory" as updateStory
   usecase "Excluir\nStory" as deleteStory
 }
+
+package "Gerenciar Tarefas" {
   usecase "Criar\nTarefa" as createTask
   usecase "Atualizar\nTarefa" as updateTask
   usecase "Excluir\nTarefa" as deleteTask
-
+}
   usecase "Criar\nSprint" as createSprint
   usecase "Iniciar\nSprint" as openSprint
   usecase "Fechar\nSprint" as closeSprint
