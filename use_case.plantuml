@@ -16,6 +16,7 @@ package "Gerenciar Tenants" {
 package "Gerenciar Contas" {
   usecase "Criar\nConta" as createAccount
   usecase "Atualizar\nConta" as updateAccount
+  usecase "Alterar\nSenha" as updatePassword
   usecase "Excluir\nConta" as deleteAccount
 }
 
