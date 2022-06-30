@@ -17,6 +17,7 @@ package "Gerenciar Contas" {
   usecase "Criar\nConta" as createAccount
   usecase "Atualizar\nConta" as updateAccount
   usecase "Alterar\nSenha" as updatePassword
+  usecase "Alterar foto\ndo perfil" as updateProfileImage
   usecase "Excluir\nConta" as deleteAccount
 }
 
